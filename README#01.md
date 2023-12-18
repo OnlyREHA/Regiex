@@ -15,8 +15,38 @@
 
 #### 문법
 1) Groups anf ranges
-   - | : 또는
-   - () : 그룹
-   - [] : 문자셋, 괄호안의 어떤 문자든
-   - [^] : 부정문자셋, 괄호안의 어떤 문자가 아닐때
-   - (?) : 찾지만 기억하지는 않음
+
+- | : 또는
+   
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/cf6466bd-d9ed-4f67-b3be-56173b1de357)
+     
+- () : 그룹
+   
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/47c285c8-3419-4bc7-8d1b-be7607f81fb6)
+
+- [] : 문자셋, 괄호안의 어떤 문자든
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/385b5fa9-5edd-48cc-83d9-13d4aa11af39)
+
+대괄호 안에 있는 글자중 하나라도 만족하는 것을 찾아라는 의미
+
+     
+- [^] : 부정문자셋, 괄호안의 어떤 문자가 아닐때
+  
+     
+- (?) : 찾지만 기억하지는 않음
+    
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/9b1cc86e-9965-4b33-a544-8dfd04b3254f)
+
+
+#### 아래 두이미지는 gr로 시작해서 a~g
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/edc9d9eb-0a4c-4973-b00c-6dda00976332)  ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/e3d32fea-e8c3-48b3-9a0f-e501bd0fb1c7)
+
+
+
+
+
+
+
+
