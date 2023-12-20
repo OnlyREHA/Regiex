@@ -43,16 +43,38 @@
 
 ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/edc9d9eb-0a4c-4973-b00c-6dda00976332)  ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/e3d32fea-e8c3-48b3-9a0f-e501bd0fb1c7)
 
+#### a 부터 z까지, A 부터 Z까지 0부터 9까지 하나라도 만족하면 모두 찾는다 
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/1ef8a663-37e7-44a3-b5f9-a27627718189)
+
+
 
 2) 제한하기위해 사용하는
 - ? :없거나 있거나(zero or one)
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/cfe0ce12-392c-4fd0-bd51-2b24bc1c621c)
+
 - : 없거나 있거나 많거나(zero or more)
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/4311842d-d0a3-470b-b9a7-29cd315aa18d)
+
 - : 하나 또는 많거나(one or more)
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/c13d3f2c-8f9d-41cb-90cb-48ad6c269620)
+
 - {n} : n번 반복
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/b8c7307b-10df-4354-a004-c1755a03f81b)
+
 - {min,} : 최소
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/b18bc916-02f2-4419-ab61-680292152be7)
+
 - {min,max} : 최소 그리고 최대
 
-  
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/d4578dab-a916-4be2-af7d-869767f36a5a)
+
+
  3) 경계에 대한
 - \b : 단어경계
 -> Ya로 시작하는 단어
@@ -60,10 +82,13 @@
 ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/a4d2a238-2fcb-489c-8039-45269c1d1b47)
 
 -> Ya로 끝나는 단어 
+
 ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/f60f0b22-bb3e-4f38-8f1c-8c920a2f0b2f)
 
 - \B : 단어경계가 아님
-  
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/27656486-ec04-44f1-9c85-baaa0e1cc108)
+
 - ^ : 문장의 시작
 
 -> 문장의 시작인 Ya
@@ -78,7 +103,12 @@
 
 
 4) 특징을 이용하는 방법
-- \ : 특수문자가 아닌 문자
+- \ : 특수문자
+
+-> 특수문자 .을 찾고자 할때
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/a8c93dd6-c9f7-426c-8596-3da8912944ab)
+
 - . : 어떤 글자(줄바꿈 문자 제외)
 
 -> 문장의 모든 문자
@@ -86,11 +116,37 @@
 ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/00756107-1538-4e70-bfc6-549209c3204d)
 
 - \d: 숫자
+- 
+-> 모든 숫자 선택
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/4b95c35d-1724-482b-9d96-d7e6a8c6dec6)
+
 - \D: 숫자 아님
+
+-> 숫자가 아닌 모든 것이 선택
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/6d61355b-f2ff-4694-a8c5-c7aede36c3d6)
+
 - \w : 문자
+
+-> 띄워쓰기(공백), 특수문자를 제외한 모든 것이 선택
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/78deac85-25c8-4d07-bbbf-681a82396ca1)
+
 - \W : 문자 아님
+
+-> 문자와 숫자를 제외한 모든 것이 선택 - 공백과 특수문자
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/a93e27bc-16e4-4571-832b-5b552d97d101)
+  
 - \s : 공백
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/c4ea043d-07d7-4df4-a304-6753baa94100)
+
 - \S : 공백 아님
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/13093f78-3345-4b5e-a61a-f861c46ec50b)
+
 
 
 
