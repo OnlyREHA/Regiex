@@ -44,6 +44,55 @@
 ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/edc9d9eb-0a4c-4973-b00c-6dda00976332)  ![image](https://github.com/OnlyREHA/Regiex/assets/145514740/e3d32fea-e8c3-48b3-9a0f-e501bd0fb1c7)
 
 
+2) 제한하기위해 사용하는
+- ? :없거나 있거나(zero or one)
+- : 없거나 있거나 많거나(zero or more)
+- : 하나 또는 많거나(one or more)
+- {n} : n번 반복
+- {min,} : 최소
+- {min,max} : 최소 그리고 최대
+
+  
+ 3) 경계에 대한
+- \b : 단어경계
+-> Ya로 시작하는 단어
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/a4d2a238-2fcb-489c-8039-45269c1d1b47)
+
+-> Ya로 끝나는 단어 
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/f60f0b22-bb3e-4f38-8f1c-8c920a2f0b2f)
+
+- \B : 단어경계가 아님
+  
+- ^ : 문장의 시작
+
+-> 문장의 시작인 Ya
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/2e6c7515-f644-471d-a678-bfd794b2c939)
+
+- $ : 문장의 끝
+
+-> 문장의 긑인 Ya
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/4be53c66-9a7c-40fe-b772-95e0dd8b9266)
+
+
+4) 특징을 이용하는 방법
+- \ : 특수문자가 아닌 문자
+- . : 어떤 글자(줄바꿈 문자 제외)
+
+-> 문장의 모든 문자
+
+![image](https://github.com/OnlyREHA/Regiex/assets/145514740/00756107-1538-4e70-bfc6-549209c3204d)
+
+- \d: 숫자
+- \D: 숫자 아님
+- \w : 문자
+- \W : 문자 아님
+- \s : 공백
+- \S : 공백 아님
+
+
 
 
 
